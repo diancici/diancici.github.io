@@ -1,0 +1,43 @@
+
+div {
+    line-height: 1.6;
+}
+
+.heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.context {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.subheading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.header{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align:"center";
+    
+    
+}
+
+.footer{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 150px;
+    
+}
+
+

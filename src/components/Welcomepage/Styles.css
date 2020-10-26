@@ -1,0 +1,36 @@
+.center{
+    Display: flex;
+    Align-Items: center;
+    Justify-Content: centre;  
+}
+
+.display{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+    
+    
+}
+
+.header{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align:"center";
+    
+    
+}
+
+.footer{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align:"center";
+    
+    
+}
+
+
