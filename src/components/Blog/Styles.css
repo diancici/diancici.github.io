@@ -1,6 +1,7 @@
 
 div {
     line-height: 1.6;
+    
 }
 
 .heading {
@@ -25,19 +26,37 @@ p {
 .header{
     margin-top: 0px;
     margin-bottom: 50px;
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
     text-align:"center";
     
     
 }
 
 .footer{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 0px;
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-left: 0px;
+    margin-right: 0px;
     
 }
+
+.iframe-container {
+    overflow: hidden;
+    /* 16:9 aspect ratio */
+    padding-top: 56.25%;
+    position: relative;
+  }
+  
+  .iframe-container iframe {
+     border: 0;
+     height: 100%;
+     left: 0;
+     position: absolute;
+     top: 0;
+     width: 100%;
+  }
+  
 
 

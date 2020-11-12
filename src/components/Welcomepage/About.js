@@ -18,31 +18,28 @@ const About=()=> {
         <h2 className='header' style={{textAlign:"center"}}>About</h2>  
               
           <Row >
-            <Col xs={{ order: 'first' }} >
+            <Col  >
               <Image width={220} height={200} 
               src={require("../../asserts/images/profile.jpg")} roundedCircle />
             </Col>
-            <Col  >
+            <Col xs={2}  >
             <div>
-              <Badge pill variant="primary">
-                Junior Engineering Graduate
-              </Badge>{' '}
               <Badge pill variant="info">
                 Computer Science
               </Badge>{' '}
               <Badge pill variant="success">
-                Embedded Electronics
+                Electronic Embedded System
               </Badge>{' '}
-              <Badge pill variant="danger">
-                Curiosity + Adventure
+              <Badge pill variant="primary">
+                IoT and AIoT
               </Badge>{' '}
               <Badge pill variant="warning">
+                Machine Learning
+              </Badge>{' '}
+              {/*<Badge pill variant="warning">
                 Gryffindor fan
               </Badge>{' '}
-              <Badge pill variant="secondary">
-                AI Application
-              </Badge>{' '}
-              {/*<Badge pill variant="light">
+              <Badge pill variant="light">
                 Reading
               </Badge>{' '}
               <Badge pill variant="dark">

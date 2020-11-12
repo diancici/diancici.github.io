@@ -1,3 +1,4 @@
+import { DriveEtaRounded } from '@material-ui/icons';
 import React, { Component } from 'react';
 import { Container, Row, Col, Button, Badge} from 'react-bootstrap';
 
@@ -7,18 +8,15 @@ import './Styles.css'
 class AppTFReact extends Component{
     render() {
         return (
-            <div style={{backgroundColor:"ivory"}}> 
-                <Container className="header" >
-                        <Row>
-                        <Col ></Col>                
-                        <Col ></Col>
-                        </Row>
-                </Container> 
+            <div > 
+                <div className='header'>
+                </div> 
 
-                <Container className="header" >
-                    <Row>
-                    <Col ></Col>
-                    <Col xs={8}>
+                <Container >
+                    <Row >
+                    <Col xs={0} md={2}></Col>
+                    
+                    <Col xs={12} md={8} >
                         <h2 className='heading'> Build an APP in React Native for Image Recognition with TensorFlow</h2>
                         <Badge pill variant="primary">
                             TensorFlow 
@@ -119,7 +117,8 @@ class AppTFReact extends Component{
                         Anyway, this was a bold and encouraging experiment for me. I hope this article can help you with how to apply machine learning to your React-Native application! You can also find an exemple script in 
                         my <a href='https://github.com/diancici/APP-React-Native-Build-with-TensorFlow-.git'>github</a>.
                         </p>
-                        <iframe width="560" height="315" 
+                        <div className='iframe-container'>
+                        <iframe 
                             src="https://www.youtube.com/embed/dNqdTC97NVM" frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                             allowfullscreen title='Video: Demo mobile APP for Image Recognition by taking photos '> 
@@ -129,23 +128,21 @@ class AppTFReact extends Component{
                                 </a>
                             </p>
                         </iframe>
+                        </div>
                         <hr></hr>
                     </Col>
-                    <Col ></Col>
+                    <Col xs={0} md={2}></Col>
                     </Row>
                 
-                    <Row>
-                        <Col xs={8}></Col>                                   
+                    <Row> 
+                        <Col xs={8}></Col>                            
                         <Col><Button variant="secondary" href="/#blog">More blogs</Button> {' '}</Col>
+                        <Col></Col>
                     </Row>
                 </Container>
 
-                <Container className="footer" >
-                <Row>
-                    <Col ></Col>                
-                    <Col ></Col>
-                </Row>
-                </Container>
+                <div className='footer'>
+                </div>
 
             </div>
 
