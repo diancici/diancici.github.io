@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5a18080e.chunk.css",
+    "main.js": "/static/js/main.b30f95f1.chunk.js",
+    "main.js.map": "/static/js/main.b30f95f1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.933364b2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.933364b2.js.map",
+    "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
+    "static/js/2.a211e9ee.chunk.js": "/static/js/2.a211e9ee.chunk.js",
+    "static/js/2.a211e9ee.chunk.js.map": "/static/js/2.a211e9ee.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.870d1a85a86f63bca015c97ed2131ea2.js": "/precache-manifest.870d1a85a86f63bca015c97ed2131ea2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
+    "static/css/main.5a18080e.chunk.css.map": "/static/css/main.5a18080e.chunk.css.map",
+    "static/js/2.a211e9ee.chunk.js.LICENSE.txt": "/static/js/2.a211e9ee.chunk.js.LICENSE.txt",
+    "static/media/background.jpg": "/static/media/background.99e6debc.jpg",
+    "static/media/logo.jpg": "/static/media/logo.7d63871e.jpg",
+    "static/media/personalWeb.jpg": "/static/media/personalWeb.2ff37303.jpg",
+    "static/media/profile.jpg": "/static/media/profile.72fc23dd.jpg",
+    "static/media/smarthome.jpg": "/static/media/smarthome.1221d322.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.933364b2.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.a211e9ee.chunk.js",
+    "static/css/main.5a18080e.chunk.css",
+    "static/js/main.b30f95f1.chunk.js"
+  ]
+}
