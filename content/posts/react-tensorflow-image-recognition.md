@@ -1,6 +1,6 @@
 +++
 date = '2025-11-15T19:02:39+01:00'
-draft = true
+draft = false
 title = 'Build an APP with React Native for Image Recognition'
 +++
 
